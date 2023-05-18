@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 body{
     background-color: #eeb3b3;
+    font-family: 'Playfair Display', serif;
 }
 #title {
     color: #D21312;
@@ -9,19 +10,19 @@ body{
 }
 #welcome {
     text-align: center;
-    color: rgb(255, 136, 0);
+    color: rgb(255, 255, 255);
     list-style-type: none;
 }
-.image1 {
+#image1 {
     width: 30%;
     max-width: 300px;
 }
-.image2 {
+#image2 {
     width: 30%;
     max-width: 300px;
 }
 #info1 {
-    color: #f78a0d;
+    color: #ffffff;
 }
 .info_general {
     text-align: center;
@@ -37,4 +38,19 @@ a{
 }
 .border_image a img{
     border: 9px solid #E76161;
+}
+#netlink:hover  {
+    color: rgb(255, 0, 0);
+ }
+ #Home:hover {
+    color: rgb(255, 0, 0);
+}
+#TV:hover {
+    color: rgb(255, 0, 0);
+}
+#series:hover {
+    color: rgb(255, 0, 0);
+}
+#image1:hover {
+    color: #D21312;
 }
